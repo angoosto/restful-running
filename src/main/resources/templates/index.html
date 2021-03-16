@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html xmlns:th="https://www.thymeleaf.org">
+
 <head lang="en">
-    <meta charset="UTF-8"/>
-    <title>Running Data</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RESTful Running</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="/main.css" />
+    <link rel="shortcut icon" href="https://angus.work/Resources/images/favicon.ico">
 </head>
+
 <body>
 
-    <div id="react"></div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#homeNavbar"
+                aria-controls="homeNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="homeNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://angus.work">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">RESTful Running</h1>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 1.5rem;">
+        <div class="col-sm">
+            <div id="react" style='text-align: center;'></div>
+        </div>
+    </div>
 
     <script src="built/bundle.js"></script>
+    <!-- <script src="../../../src/main/js/tableSort.js"></script> -->
 
 </body>
+
 </html>
