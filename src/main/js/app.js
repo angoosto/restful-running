@@ -160,7 +160,7 @@ class App extends React.Component {
         rel: "runs",
         params: {
           size: this.state.pageSize,
-        //   page: this.state.page.number,
+          //   page: this.state.page.number,
         },
       },
     ])
@@ -260,7 +260,9 @@ class CreateDialog extends React.Component {
     ));
     return (
       <div>
-        <a href="#postNewRun">Post New Run</a>
+        <button style={{ marginTop: 0.5 + "rem" }}>
+          <a href="#postNewRun">Post New Run</a>
+        </button>
 
         <div id="postNewRun" className="modalDialog">
           <div>
