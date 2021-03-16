@@ -259,10 +259,8 @@ class CreateDialog extends React.Component {
       </p>
     ));
     return (
-      <div>
-        <button style={{ marginTop: 0.5 + "rem" }}>
-          <a href="#postNewRun">Post New Run</a>
-        </button>
+      <div className="row">
+        <a href="#postNewRun">Post New Run</a>
 
         <div id="postNewRun" className="modalDialog">
           <div>

@@ -9,9 +9,9 @@ body {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/imagelibrary-114902-20190602-1587746630.jpg?crop=0.668xw:1.00xh;0.173xw,0&resize=980:*');
+    background-image: url('https://www.wallpapertip.com/wmimgs/49-497901_running-background-for-desktop-wallpaper-1920-x-1080.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     color: #ffffff;
     height: 14rem;
 }
@@ -24,7 +24,7 @@ table {
     border-collapse: collapse;
     margin: auto;
     text-align: center;
-    width: 100%;
+    width: 65%;
 }
 
 th {
