@@ -7,13 +7,9 @@ body {
 }
 
 .jumbotron {
-    display: flex;
-    align-items: center;
     background-image: url('https://www.wallpapertip.com/wmimgs/49-497901_running-background-for-desktop-wallpaper-1920-x-1080.jpg');
     background-size: cover;
     background-position: center;
-    color: #ffffff;
-    height: 14rem;
 }
 
 input.field {
@@ -24,7 +20,7 @@ table {
     border-collapse: collapse;
     margin: auto;
     text-align: center;
-    width: 65%;
+    width: 55%;
 }
 
 th {
@@ -48,11 +44,6 @@ td, th {
 
 td {
     width: 20%;
-}
-
-.row {
-    margin-left: 15rem;
-    margin-right: 15rem;
 }
 
 .filter__link {
